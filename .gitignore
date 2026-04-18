@@ -1,0 +1,44 @@
+# OSM データファイル (大容量)
+*.pbf
+*.osm
+*.osm.bz2
+*.osm.gz
+
+# osmium ノードロケーションキャッシュ
+*.cache
+node.cache
+*.tmp
+
+# extract_japan_pois.py の出力ファイル (Python形式以外)
+japan_pois.json
+japan_pois.csv
+*.json
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# 仮想環境
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# IDE / エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ログ
+*.log
